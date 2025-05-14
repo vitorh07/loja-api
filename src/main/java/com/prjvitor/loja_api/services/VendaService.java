@@ -15,8 +15,7 @@ public class VendaService {
     }
 
     // Métodos
-
-    public void saveVenda(Venda venda) {
+    public void realizarVenda(Venda venda) {
         vendaRepository.save(venda);
     }
 }
